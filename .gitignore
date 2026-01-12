@@ -1,0 +1,75 @@
+# ========================
+# MSP430 / C Build Files
+# ========================
+# Standard build directories (CCS/Eclipse)
+Debug/
+Release/
+
+# Compiled object files and binaries
+*.obj
+*.o
+*.out
+*.hex
+*.bin
+*.map
+*.pp
+*.mk
+*.d
+
+# ========================
+# IDE & Project Configuration
+# ========================
+# These files contain local path configurations and user-specific settings 
+# that should not be shared between different environments.
+
+# Code Composer Studio (CCS) / Eclipse
+.settings/
+.cproject
+.ccsproject
+.project
+.metadata/
+
+# VS Code & Clangd
+.vscode/
+.clangd/
+
+# ========================
+# Python & Virtual Envs
+# ========================
+# Compiled bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# ========================
+# Logs & Data Assets
+# ========================
+# Telemetry logs and raw NMEA dumps (avoid large files in repo)
+*.log
+*.nmea
+*.csv
+*.txt
+
+# ========================
+# OS & System Files
+# ========================
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux / Arch Linux temporary files
+*~
+*.swp
+.fuse_hidden*
+
+# macOS
+.DS_Store
