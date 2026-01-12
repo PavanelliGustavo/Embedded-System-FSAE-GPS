@@ -18,7 +18,7 @@ This embedded system is designed to provide:
 ## 📂 Repository Structure
 
 ```text
-FSAE-GPS-Telemetry/
+Embedded-System-FSAE-GPS/
 │
 ├── docs/                           # Technical documentation and manuals
 │   ├── datasheets/                 # Component PDFs (MSP430, G10A, LM2596)
